@@ -1,0 +1,5 @@
+[2023-11-10 11:58:20] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'utilisateurID' cannot be null
+[2023-11-10 11:58:28] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'utilisateurID' cannot be null
+[2023-11-10 14:25:11] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`touiteur`.`touitesutilisateurs`, CONSTRAINT `touitesutilisateurs_ibfk_2` FOREIGN KEY (`utilisateurID`) REFERENCES `utilisateurs` (`utilisateurID`))
+[2023-11-10 14:25:14] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`touiteur`.`touitesutilisateurs`, CONSTRAINT `touitesutilisateurs_ibfk_2` FOREIGN KEY (`utilisateurID`) REFERENCES `utilisateurs` (`utilisateurID`))
+[2023-11-10 14:34:28] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'utilisateurID' cannot be null
